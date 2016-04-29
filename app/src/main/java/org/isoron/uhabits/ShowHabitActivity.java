@@ -40,6 +40,7 @@ public class ShowHabitActivity extends BaseActivity
         habit = Habit.get(ContentUris.parseId(data));
 
         setContentView(R.layout.show_habit_activity);
+        getWindow().setBackgroundDrawable(null);
 
         setupSupportActionBar(true);
         setupHabitActionBar();
