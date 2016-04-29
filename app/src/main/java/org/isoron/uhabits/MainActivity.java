@@ -76,6 +76,7 @@ public class MainActivity extends BaseActivity
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.list_habits_activity);
+        getWindow().setBackgroundDrawable(null);
 
         setupSupportActionBar(false);
 

@@ -36,6 +36,7 @@ public class AboutActivity extends BaseActivity implements View.OnClickListener
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.about);
+        getWindow().setBackgroundDrawable(null);
         setupSupportActionBar(true);
 
         int color = UIHelper.getStyledColor(this, R.attr.aboutScreenColor);
